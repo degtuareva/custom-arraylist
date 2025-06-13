@@ -47,7 +47,7 @@ public class DefaultCustomArrayList<E> implements CustomArrayList<E> {
         return false;
     }
 
-    private void remove(int index) {
+    public void remove(int index) {
         if (index < 0 || index >= size) {
             throw new IndexOutOfBoundsException();
         }
@@ -58,11 +58,11 @@ public class DefaultCustomArrayList<E> implements CustomArrayList<E> {
         elements[--size] = null;
     }
 
-    @SuppressWarnings("uncheked")
+    @SuppressWarnings("unchecked")
     @Override
     public E get(int index) {
         if (index < 0 || index >= size) {
-            throw new IndexOutOfBoundsException("Index" + index + "Size" + size);
+            throw new IndexOutOfBoundsException("Index " + index + "Size " + size);
         }
         return (E) elements[index];
     }
@@ -79,9 +79,7 @@ public class DefaultCustomArrayList<E> implements CustomArrayList<E> {
 
     @Override
     public void clear() {
-        for (int i = 0; i < size; i++) {
-            elements[i] = null;
-        }
+        elements=new Object[DEFAULT_CAPACITY];
         size = 0;
     }
 
@@ -99,7 +97,7 @@ public class DefaultCustomArrayList<E> implements CustomArrayList<E> {
 
     @Override
     public Iterator<E> iterator() {
-        return new Iterator<E>() {
+        return new Iterator<>() {
             private int cursor = 0;
 
             @Override

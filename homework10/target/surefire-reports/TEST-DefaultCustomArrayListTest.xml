@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="DefaultCustomArrayListTest" time="0.041" tests="8" errors="1" skipped="0" failures="7">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="DefaultCustomArrayListTest" time="0.039" tests="8" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="23"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1251"/>
-    <property name="java.class.path" value="D:\repo\java\homework10\target\test-classes;D:\repo\java\homework10\target\classes;C:\Users\TUF GAMING\.m2\repository\org\junit\jupiter\junit-jupiter\5.9.0\junit-jupiter-5.9.0.jar;C:\Users\TUF GAMING\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.0\junit-jupiter-api-5.9.0.jar;C:\Users\TUF GAMING\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\TUF GAMING\.m2\repository\org\junit\platform\junit-platform-commons\1.9.0\junit-platform-commons-1.9.0.jar;C:\Users\TUF GAMING\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\TUF GAMING\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.9.0\junit-jupiter-params-5.9.0.jar;C:\Users\TUF GAMING\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.9.0\junit-jupiter-engine-5.9.0.jar;C:\Users\TUF GAMING\.m2\repository\org\junit\platform\junit-platform-engine\1.9.0\junit-platform-engine-1.9.0.jar;"/>
+    <property name="java.class.path" value="D:\repo\java\custom-arraylist\homework10\target\test-classes;D:\repo\java\custom-arraylist\homework10\target\classes;C:\Users\TUF GAMING\.m2\repository\org\junit\jupiter\junit-jupiter\5.9.0\junit-jupiter-5.9.0.jar;C:\Users\TUF GAMING\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.0\junit-jupiter-api-5.9.0.jar;C:\Users\TUF GAMING\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\TUF GAMING\.m2\repository\org\junit\platform\junit-platform-commons\1.9.0\junit-platform-commons-1.9.0.jar;C:\Users\TUF GAMING\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\TUF GAMING\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.9.0\junit-jupiter-params-5.9.0.jar;C:\Users\TUF GAMING\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.9.0\junit-jupiter-engine-5.9.0.jar;C:\Users\TUF GAMING\.m2\repository\org\junit\platform\junit-platform-engine\1.9.0\junit-platform-engine-1.9.0.jar;"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="user.variant" value=""/>
@@ -15,9 +15,9 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="RU"/>
     <property name="sun.boot.library.path" value="C:\Users\TUF GAMING\.jdks\openjdk-23.0.1\bin"/>
-    <property name="sun.java.command" value="C:\Users\TUF GAMING\AppData\Local\Temp\surefire13055639502418264840\surefirebooter10677711598781365473.jar C:\Users\TUF GAMING\AppData\Local\Temp\surefire13055639502418264840 2025-06-12T22-48-31_863-jvmRun1 surefire5628960779223454168tmp surefire_012604619058384870521tmp"/>
+    <property name="sun.java.command" value="C:\Users\TUF GAMING\AppData\Local\Temp\surefire13873152282942795192\surefirebooter1585722285236647346.jar C:\Users\TUF GAMING\AppData\Local\Temp\surefire13873152282942795192 2025-06-13T19-01-18_843-jvmRun1 surefire12151618848025903308tmp surefire_04985098709706241458tmp"/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="D:\repo\java\homework10\target\test-classes;D:\repo\java\homework10\target\classes;C:\Users\TUF GAMING\.m2\repository\org\junit\jupiter\junit-jupiter\5.9.0\junit-jupiter-5.9.0.jar;C:\Users\TUF GAMING\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.0\junit-jupiter-api-5.9.0.jar;C:\Users\TUF GAMING\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\TUF GAMING\.m2\repository\org\junit\platform\junit-platform-commons\1.9.0\junit-platform-commons-1.9.0.jar;C:\Users\TUF GAMING\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\TUF GAMING\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.9.0\junit-jupiter-params-5.9.0.jar;C:\Users\TUF GAMING\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.9.0\junit-jupiter-engine-5.9.0.jar;C:\Users\TUF GAMING\.m2\repository\org\junit\platform\junit-platform-engine\1.9.0\junit-platform-engine-1.9.0.jar;"/>
+    <property name="surefire.test.class.path" value="D:\repo\java\custom-arraylist\homework10\target\test-classes;D:\repo\java\custom-arraylist\homework10\target\classes;C:\Users\TUF GAMING\.m2\repository\org\junit\jupiter\junit-jupiter\5.9.0\junit-jupiter-5.9.0.jar;C:\Users\TUF GAMING\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.0\junit-jupiter-api-5.9.0.jar;C:\Users\TUF GAMING\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\TUF GAMING\.m2\repository\org\junit\platform\junit-platform-commons\1.9.0\junit-platform-commons-1.9.0.jar;C:\Users\TUF GAMING\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\TUF GAMING\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.9.0\junit-jupiter-params-5.9.0.jar;C:\Users\TUF GAMING\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.9.0\junit-jupiter-engine-5.9.0.jar;C:\Users\TUF GAMING\.m2\repository\org\junit\platform\junit-platform-engine\1.9.0\junit-platform-engine-1.9.0.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\TUF GAMING"/>
     <property name="user.language" value="ru"/>
@@ -25,12 +25,12 @@
     <property name="java.version.date" value="2024-10-15"/>
     <property name="java.home" value="C:\Users\TUF GAMING\.jdks\openjdk-23.0.1"/>
     <property name="file.separator" value="\"/>
-    <property name="basedir" value="D:\repo\java\homework10"/>
+    <property name="basedir" value="D:\repo\java\custom-arraylist\homework10"/>
     <property name="java.vm.compressedOopsMode" value="Zero based"/>
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\TUF GAMING\AppData\Local\Temp\surefire13055639502418264840\surefirebooter10677711598781365473.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\TUF GAMING\AppData\Local\Temp\surefire13873152282942795192\surefirebooter1585722285236647346.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="23.0.1+11-39"/>
@@ -46,7 +46,7 @@
     <property name="java.io.tmpdir" value="C:\Users\TUFGAM~1\AppData\Local\Temp\"/>
     <property name="idea.version" value="2024.1.7"/>
     <property name="java.version" value="23.0.1"/>
-    <property name="user.dir" value="D:\repo\java\homework10"/>
+    <property name="user.dir" value="D:\repo\java\custom-arraylist\homework10"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="sun.os.patch.level" value=""/>
@@ -59,44 +59,12 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="67.0"/>
   </properties>
-  <testcase name="testAddAndGetSize" classname="DefaultCustomArrayListTest" time="0.018">
-    <failure type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <2> but was: <0>
-	at DefaultCustomArrayListTest.testAddAndGetSize(DefaultCustomArrayListTest.java:21)
-]]></failure>
-  </testcase>
-  <testcase name="testGet" classname="DefaultCustomArrayListTest" time="0.002">
-    <failure type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <1> but was: <null>
-	at DefaultCustomArrayListTest.testGet(DefaultCustomArrayListTest.java:28)
-]]></failure>
-  </testcase>
-  <testcase name="testClear" classname="DefaultCustomArrayListTest" time="0.001">
-    <failure type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
-	at DefaultCustomArrayListTest.testClear(DefaultCustomArrayListTest.java:47)
-]]></failure>
-  </testcase>
-  <testcase name="testContains" classname="DefaultCustomArrayListTest" time="0">
-    <failure type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
-	at DefaultCustomArrayListTest.testContains(DefaultCustomArrayListTest.java:54)
-]]></failure>
-  </testcase>
-  <testcase name="testGetWithIndexOutOfBoundShouldThrowException" classname="DefaultCustomArrayListTest" time="0.001">
-    <failure type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: Expected java.lang.IndexOutOfBoundsException to be thrown, but nothing was thrown.
-	at DefaultCustomArrayListTest.testGetWithIndexOutOfBoundShouldThrowException(DefaultCustomArrayListTest.java:80)
-]]></failure>
-  </testcase>
-  <testcase name="testIsEmpty" classname="DefaultCustomArrayListTest" time="0">
-    <failure type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
-	at DefaultCustomArrayListTest.testIsEmpty(DefaultCustomArrayListTest.java:60)
-]]></failure>
-  </testcase>
-  <testcase name="testRemove" classname="DefaultCustomArrayListTest" time="0">
-    <failure type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
-	at DefaultCustomArrayListTest.testRemove(DefaultCustomArrayListTest.java:36)
-]]></failure>
-  </testcase>
-  <testcase name="testIterator" classname="DefaultCustomArrayListTest" time="0">
-    <error type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException: Cannot invoke "java.util.Iterator.hasNext()" because "iterator" is null
-	at DefaultCustomArrayListTest.testIterator(DefaultCustomArrayListTest.java:70)
-]]></error>
-  </testcase>
+  <testcase name="testAddAndGetSize" classname="DefaultCustomArrayListTest" time="0.016"/>
+  <testcase name="testGet" classname="DefaultCustomArrayListTest" time="0.001"/>
+  <testcase name="testClear" classname="DefaultCustomArrayListTest" time="0.001"/>
+  <testcase name="testContains" classname="DefaultCustomArrayListTest" time="0"/>
+  <testcase name="testGetWithIndexOutOfBoundShouldThrowException" classname="DefaultCustomArrayListTest" time="0.004"/>
+  <testcase name="testIsEmpty" classname="DefaultCustomArrayListTest" time="0"/>
+  <testcase name="testRemove" classname="DefaultCustomArrayListTest" time="0"/>
+  <testcase name="testIterator" classname="DefaultCustomArrayListTest" time="0.001"/>
 </testsuite>
